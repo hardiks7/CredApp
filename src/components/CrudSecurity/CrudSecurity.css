@@ -1,0 +1,24 @@
+.crud-security {
+    background-color: var(--bg-purple);
+    background-image: url("https://web-images.credcdn.in/_next/assets/images/home-page/security-bg.jpg");
+}
+
+@media all and (max-width:1279px) {
+    .crud-security {
+        background-position: center bottom;
+    }
+}
+
+@media all and (max-width:767px) {
+    .crud-security {
+        background-image: url("https://web-images.credcdn.in/_next/assets/images/home-page/security-bg.jpg");        
+        min-height: 1150px;
+        background-position: right center;
+    }
+    .cred-experience-heading{
+        margin-top: 400px;   
+    }
+    .cred-experience-description{
+        margin-top: 100px;
+    }
+}
